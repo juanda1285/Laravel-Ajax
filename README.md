@@ -12,13 +12,13 @@ Para clonar este repositorio, utiliza el siguiente comando en el CMD ( o tambien
 
 git clone https://github.com/juanda1285/Laravel-Ajax.git
 
-##Instalar Dependencias 
+## Instalar Dependencias 
 
 Dentro del proyecto abrir una terminal y ejecutar : 
 
 composer install
 
-##Configurar Entrono
+## Configurar Entrono
 
 Ejecutar el siguiente comando para las variables de entorno 
 
@@ -30,7 +30,7 @@ Generar una nueva key para la aplicación no es necesario pero es una buena prac
 
 php artisan key:generate
 
-##Ejecutar el servidor de desarrollo
+## Ejecutar el servidor de desarrollo
 
 Para ejecutar el serivdor utiliza el siguiente comando : 
 
