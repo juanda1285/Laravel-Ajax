@@ -4,7 +4,7 @@
 
 La base de datos está en un archivo SQLITE dentro del proyecto como lo hace laravel por defecto.
 
-#Pasos para la ejecución del proyecto
+## Pasos para la ejecución del proyecto
 
 ## Clonar el Repositorio
 
