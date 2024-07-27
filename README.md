@@ -46,3 +46,7 @@ Para ejecutar el serivdor utiliza el siguiente comando :
 php artisan serve
 
 
+# Notas
+
+Usé Bootstrap para facilitar el manejo de estilos y la creación del card de registro. 
+
