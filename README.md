@@ -22,7 +22,7 @@ composer install
 
 Ejecutar el siguiente comando para las variables de entorno 
 
-cp .env.example .env
+copy .env.example .env
 
 ## Generar nueva key
 
