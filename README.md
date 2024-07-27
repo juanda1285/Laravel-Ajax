@@ -1,10 +1,8 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# Prueba Laravel Ajax
+# Prueba Laravel Ajax -  Pasos para la ejecución del proyecto
 
-La base de datos está en un archivo SQLITE dentro del proyecto como lo hace laravel por defecto.
 
-# Pasos para la ejecución del proyecto
 
 ## Clonar el Repositorio
 
@@ -29,6 +27,16 @@ copy .env.example .env
 Generar una nueva key para la aplicación no es necesario pero es una buena practica para prevenir problemas de seguridad , aca el comando : 
 
 php artisan key:generate
+
+## Crear la Base de datos
+
+En la carpeta database del proyecto, crea un nuevo archivo llamado database.sqlite
+(Si quieres usar otra DB , cambia los ajustes en el archivo .env a tu gusto)
+
+## Ejecutar las migraciones.
+
+El siguiente comando creará las tablas 
+php artisan migrate
 
 ## Ejecutar el servidor de desarrollo
 
