@@ -35,7 +35,8 @@ En la carpeta database del proyecto, crea un nuevo archivo llamado database.sqli
 
 ## Ejecutar las migraciones.
 
-El siguiente comando creará las tablas 
+El siguiente comando creará las tablas :
+
 php artisan migrate
 
 ## Ejecutar el servidor de desarrollo
